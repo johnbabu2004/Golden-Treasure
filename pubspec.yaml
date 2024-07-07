@@ -1,0 +1,32 @@
+name: myapp
+description: "A new Flutter project with carousel."
+
+# Prevent accidental publishing
+publish_to: 'none' 
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1              
+  # Carousel dependency (consider using an actively maintained package)
+  carousel_slider: ^4.0.0  # Or another carousel package of your choice
+  cupertino_icons: ^1.0.6  # For iOS-style icons (optional)
+
+# Dev dependencies for testing and linting
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+       
+flutter:
+  uses-material-design: true
+  # Add assets like images here (optional)
+  assets:
+    - images/
